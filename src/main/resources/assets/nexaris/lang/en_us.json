@@ -1,0 +1,12 @@
+{
+  "itemGroup.nexaris": "Nexaris Tab",
+  "block.nexaris.example_block": "Example Block",
+  "item.nexaris.example_item": "Example Item",
+  "nexaris.configuration.title": "Nexaris Configs",
+  "nexaris.configuration.section.nexaris.common.toml": "Nexaris Configs",
+  "nexaris.configuration.section.nexaris.common.toml.title": "Nexaris Configs",
+  "nexaris.configuration.items": "Item List",
+  "nexaris.configuration.logDirtBlock": "Log Dirt Block",
+  "nexaris.configuration.magicNumberIntroduction": "Magic Number Text",
+  "nexaris.configuration.magicNumber": "Magic Number"
+}

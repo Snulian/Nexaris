@@ -38,3 +38,10 @@ run/
 **/src/generated/**/.cache/
 repo/
 !**/src/**/repo/
+
+### Windows ###
+Thumbs.db
+
+### Zusätzliche Run-Ordner ###
+runs/
+run-data/

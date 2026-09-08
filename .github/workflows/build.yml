@@ -23,3 +23,15 @@ jobs:
 
       - name: Build with Gradle
         run: ./gradlew build
+
+      - name: Check formatting
+        run: ./gradlew spotlessCheck
+
+      - name: Build with Gradle
+        run: ./gradlew build
+
+      - name: Upload jar
+        uses: actions/upload-artifact@v4
+        with:
+          name: mod-jar
+          path: build/libs/*.jar
