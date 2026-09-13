@@ -8,13 +8,13 @@ buried today — and their machines can be brought back online.
 
 ## Tier Overview (long-term)
 
-| Tier | Name | Material | Status |
-|---|---|---|---|
-| 0 | Basis | Nexite Ingot | **Version 1 — in progress** |
-| 1 | Refined | Refined Nexite | planned |
-| 2 | Alloy | Nexite Alloy | planned |
-| 3 | ? | TBD | planned |
-| 4 | ? (possibly "Resonant Nexite") | TBD | planned |
+| Tier | Name                           | Material       | Status                      |
+|------|--------------------------------|----------------|-----------------------------|
+| 0    | Basis                          | Nexite Ingot   | **Version 1 — in progress** |
+| 1    | Refined                        | Refined Nexite | planned                     |
+| 2    | Alloy                          | Nexite Alloy   | planned                     |
+| 3    | ?                              | TBD            | planned                     |
+| 4    | ? (possibly "Resonant Nexite") | TBD            | planned                     |
 
 Tiers unlock **linearly** — no separate research/skill gate, the material
 itself is the progression gate. Each tier's machines are upgrades of the
@@ -48,9 +48,9 @@ Nexite Ore (world gen, mineable at Iron tier)
 
 ### Machines (all single-block in V1)
 
-| Machine | Function | Tier behavior (future) |
-|---|---|---|
-| **Smelter** | ore/dust → ingot, vanilla smelting | higher tier = faster, more slots |
+| Machine     | Function                                 | Tier behavior (future)           |
+|-------------|------------------------------------------|----------------------------------|
+| **Smelter** | ore/dust → ingot, vanilla smelting       | higher tier = faster, more slots |
 | **Crusher** | ore doubling (all ores, not just Nexite) | higher tier = faster, more slots |
 
 Both get a config-driven processing time and energy cost (no hardcoded
